@@ -1,14 +1,18 @@
 <template>
-    <header class="flex flex-row w-full bg-peach">
-        <div class="basis-1/4 flex items-center justify-start px-4">
+    <header class="flex items-center justify-between px-6 py-4 border-b shadow-sm bg-peach">
+        <div class="flex items-center gap-2">
             <img src="assets/images/logo.png" alt="Site Logo" class="w-16 h-16" >
+            <div class="leading-tight">
+                <p class="text-xs text-gray-500">THIS IS</p>
+                <p class="text-sm font-bold">OKAK TEAM</p>
+            </div>
         </div>
-        <div class="basis-1/4"></div> <!-- Remove if not needed -->
-        <nav class="basis-1/2 flex flex-row items-center justify-end px-4 gap-4" aria-label="Main navigation">
-            <NuxtLink to="/" class="my-auto p-2 hover:bg-red-500 rounded transition-colors">Home</NuxtLink> 
-            <NuxtLink to="/Lab3" class="my-auto p-2 hover:bg-teal-500 rounded transition-colors">Lab3</NuxtLink>
-            <NuxtLink to="#" class="my-auto p-2 hover:bg-teal-500 rounded transition-colors">LogIn</NuxtLink>
-            <NuxtLink to="#" class="my-auto p-2 hover:bg-teal-500 rounded transition-colors">LogOut</NuxtLink>
+        <nav class="flex space-x-8 text-sm mx-auto" aria-label="Main navigation">
+            <NuxtLink to="/" class="p-2 hover:bg-retrogreen rounded transition-colors">Home</NuxtLink> 
+            <NuxtLink to="/Lab3" class="p-2 hover:bg-retrogreen rounded transition-colors">Lab3</NuxtLink>
+            <NuxtLink to="#" class="p-2 hover:bg-retrogreen rounded transition-colors">LogIn</NuxtLink>
+            <NuxtLink to="#" class="p-2 hover:bg-retrogreen rounded transition-colors">LogOut</NuxtLink>
         </nav>
+        <div class="text-sm">En ▾</div>
     </header>
 </template>

@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         peach: '#FFE3CE',
+        retrored: '#8D0027',
+        retrogreen: '#2DAF91',
+        retroyellow: '#F1A514',
+        retroorange: '#DA4011',
       },
     },
   },

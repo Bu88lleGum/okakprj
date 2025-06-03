@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'max-sm':{'max': '480px'},
+      },
       colors: {
         peach: '#FFE3CE',
         retrored: '#8D0027',
